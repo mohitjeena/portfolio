@@ -1,0 +1,262 @@
+.nav-container{
+     width: 300px; 
+     background-color: black;
+     position: fixed;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     color: white;
+     padding: 20px ;
+     z-index: 11;
+     transition: 0.7s;
+}
+.nav-menu{
+    position: fixed;
+    right: 20px;
+    z-index: 12;
+    top: 20px;
+    font-size: 21px;
+    color: white;
+    background-color: #149DDD;
+    border-radius: 50%;
+    padding: 11px 12px;
+    display: none !important;
+}
+.nav-container ul{
+    list-style-type: none;
+    margin: 15px 0;
+    margin-top: 10px;
+     
+}
+.nav-container ul li{
+    padding: 15px 0px  15px 5px;
+    color: #ccc;
+    cursor: pointer;
+}
+.nav-container ul li:hover{
+    color: white;
+}
+.nav-container ul li:hover > i{
+    color: #0C9DDD !important;
+}
+
+
+.copy-text{
+    margin-top: 20px;
+    padding: 5px 40px;
+    font-size: 14px;
+    text-align: center;
+}
+.copyright-name{
+    color: blue;
+}
+.img-con{
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+    background-image: url("./images/bg-img.jpg");
+   background-size: cover;
+    width: calc(100%-300px);
+    margin-left: 300px;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+    opacity: 0.8;
+}
+
+.img-con h1{
+    font-size: 3.5rem;
+    transform: 0.4s;
+    
+}
+.img-con p{
+    font-size: 2rem;
+    transform: 0.4s;
+}
+.img-con p span{
+    border-bottom: #0C9DDD solid 3px;
+    padding-bottom: 3px;
+}
+
+.profile-info i{
+   background-color: #2C2F3F;
+   border-radius: 50%;
+   padding: 13px 14px;
+   transition: 0.4s;
+}
+.profile-info i:hover{
+    background-color: #0C9DDD;
+}
+.about-section{
+    background-color: white;
+    width: calc(100% - 300px);
+    margin-left: 300px;
+    padding: 40px;
+}
+.about-section .about-head{
+    display: inline-block;
+    color: #173B6C;
+    font-size: bold;
+    padding: 13px 0;
+    border-bottom: 3px solid #149DDD;
+}
+.about-section span{
+    font-weight: bold;
+    font-size: 17px;
+}
+.about-section span i{
+    color: #149DDD;
+    margin-right: 8px;
+}
+.skills-section{
+  
+    background-color: #F5F8FD;
+    width: calc(100% - 300px);
+    margin-left: 300px;
+    padding: 40px;
+}
+.skills-section .skill-head{
+    display: inline-block;
+    color: #173B6C;
+    font-size: bold;
+    padding: 13px 0;
+    border-bottom: 3px solid #149DDD;
+}
+.progress-con{
+    padding: 15px 0;
+    margin: 10px 0;
+}
+.progress-con label{
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+.resume-section .resume-head{
+    display: inline-block;
+    color: #173B6C;
+    font-size: bold;
+    padding: 13px 0;
+    border-bottom: 3px solid #149DDD;
+}
+.resume-section{
+    background-color: white;
+    width: calc(100% - 300px);
+    margin-left: 300px;
+    padding: 40px;;
+}
+.service-section{
+    background-color: #F5F8FD;
+    width: calc(100% - 300px);
+    margin-left: 300px;
+    padding: 40px;
+}
+.service-section .service-head{
+    display: inline-block;
+    color: #173B6C;
+    font-size: bold;
+    padding: 13px 0;
+    border-bottom: 3px solid #149DDD;
+}
+.service-section i{
+    background-color: #149DDD; 
+    color: white;
+    padding: 16px;
+    font-size: 22px;
+    margin-right: 15px;
+    border: 2px solid #149DDD;
+    transition: 0.4s;
+}
+.service-section-first:hover > i{
+      background-color: white !important;
+      color: #0C9DDD !important;
+}
+.service-section-second:hover > i{
+      background-color: white !important;
+      color: #0C9DDD !important;
+}
+.contact-section{
+    background-color:white;
+    width: calc(100% - 300px);
+    margin-left: 300px;
+    padding: 40px;
+}
+.contact-section .contact-head{
+    display: inline-block;
+    color: #173B6C;
+    font-size: bold;
+    padding: 13px 0;
+    border-bottom: 3px solid #149DDD;
+}
+.contact-info{
+    padding: 20px;
+}
+.contact-info i{
+  background-color: #DFF3FC;
+  padding: 13px;
+  color: #31A9E1;
+  border-radius: 50%;
+  font-size: 17px;
+  transition: 0.4s;
+}
+.contact-info div:hover > i{
+    background-color: #0C9DDD;
+    color: white;
+}
+.session{
+    display: inline-block;
+    background-color: #E4EDF9;
+    padding: 5px 20px;
+    font-weight: 600;
+}
+.personal-info p{
+    font-weight: 500;
+    color: rgb(116, 108, 108);
+}
+
+
+@media screen and (max-width:1100px) {
+    .about-section{
+        margin-left:0;
+        width: 100%;
+    }
+    .service-section{
+        margin-left: 0;
+        width: 100%;
+    }
+    .contact-section{
+        margin-left: 0;
+        width: 100%;
+    }
+    .resume-section{
+        margin-left: 0;
+        width: 100%;
+    }
+    .skills-section{
+        margin-left: 0;
+        width: 100%;
+    }
+    .about-section{
+        margin-left: 0;
+        width: 100%;
+    }
+    .nav-container{
+        left: -303px;
+    }
+    .img-con{
+       width: 100%;
+       margin-left: 0;
+    }
+    .nav-menu{
+        display: inline-block !important;
+    }
+}
+@media screen and (min-width:1100px)
+{
+    .nav-container{
+        left: 0px !important;
+    }
+}
